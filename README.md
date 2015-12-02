@@ -1,7 +1,7 @@
 # swagger-codegen customize-sample
 This is a sample repository for customizing [swagger-codegen](https://github.com/swagger-api/swagger-codegen)'s output.
 
-## How to customize and running swagger-codegen ?
+## How to customize and run swagger-codegen ?
 
 You need to make a Java class which implements `io.swagger.codegen.CodegenConfig` and need to execute swagger-codegen.jar with adding the class into classpath.
 
@@ -24,4 +24,4 @@ groovy custom-script.groovy generate \
   -o dist/with-custom-class
 ```
 
-The `-l` option specifies class name in the groovy script.
+The `-l` option specifies class name(FQCN) in the groovy script.
