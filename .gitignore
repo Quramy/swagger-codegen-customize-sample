@@ -1,0 +1,4 @@
+*.swp
+*.swo
+swagger-codegen-cli-*.jar
+dist/
