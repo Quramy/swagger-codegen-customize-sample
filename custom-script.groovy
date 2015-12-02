@@ -14,7 +14,7 @@ class MyTypescriptClientGen extends AbstractTypeScriptClientCodegen {
     this.apiPackage = "API.Client"
     this.modelPackage = "API.Client"
     this.supportingFiles.add(new SupportingFile("api.d.mustache", apiPackage().replaceAll(/\./, "${File.separatorChar}"), "api.d.ts"))
-    this.typeMapping.DateTime = "moment.Moment";
+    this.typeMapping.DateTime = "string";
   }
 
   public static main(String[] args) {
